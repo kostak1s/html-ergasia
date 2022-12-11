@@ -29,7 +29,7 @@ header a {
     color: #f2f2f2;
     padding: 40px 20px 20px 20px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 34px;
 }
 
 /* Change the color of links on hover */
@@ -53,11 +53,21 @@ footer {
     text-align: center;
 }
 
-iframe{
-    float: right;
-    transform: translateY(-30px);
+pre {
+    transform: translateX(-50px);
 }
 
+#right{
+    
+    float: right;
+    transform: translatex(-30px);
+}
+
+#left{
+    
+    float: left;
+    transform: translatex(30px);
+}
 img {
     transform: translateX(100px);
 }
@@ -79,4 +89,9 @@ header li {
     list-style: none;
     float: left;
     width: 20%;
+}
+
+.pos {
+
+    transform: translateX(85px);
 }
