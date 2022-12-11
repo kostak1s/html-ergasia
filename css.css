@@ -1,4 +1,5 @@
-body, html {
+body, html { /*sets the bg img and basically the color scheme */
+    overflow-y: clip;
     background-image: url("https://imgs.search.brave.com/3oQg9p7dX5_89Vxp2xWSnob069eFXQFjbrAtGvKUrgs/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjg2/NjUzNi5qcGc");
     background-repeat: no-repeat;
     background-position: center;
@@ -8,7 +9,7 @@ body, html {
     color: white;
 }
 
- .half {
+ .half { /* limits the width so the text doesn't overlap on God  */
     width: 45%;
  }
 
@@ -25,10 +26,8 @@ header {
 
 /* Style the links inside the navigation bar */
 header a {
-    float: left;
     color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
+    padding: 40px 20px 20px 20px;
     text-decoration: none;
     font-size: 17px;
 }
@@ -45,10 +44,6 @@ header a.active {
     color: rgb(0, 0, 0);
 }
 
-.items {
-
-
-}
 
 footer {
     position: fixed;
@@ -65,4 +60,23 @@ iframe{
 
 img {
     transform: translateX(100px);
+}
+
+header {
+    height: 54px;
+    overflow: hidden;
+    border-bottom: 1px solid black;
+}
+
+header ul {
+    height: 54px;
+    overflow: hidden;
+}
+
+header li {
+    font-size: 1.0em;
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    width: 20%;
 }
