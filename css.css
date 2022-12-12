@@ -1,5 +1,5 @@
-body, html { /*sets the bg img and basically the color scheme */
-    overflow-y: clip;
+body, html { /*sets the bg img, the color scheme and removes the appearance of scroll bar */
+    overflow-y: clip; 
     background-image: url("https://imgs.search.brave.com/3oQg9p7dX5_89Vxp2xWSnob069eFXQFjbrAtGvKUrgs/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjg2/NjUzNi5qcGc");
     background-repeat: no-repeat;
     background-position: center;
@@ -9,25 +9,35 @@ body, html { /*sets the bg img and basically the color scheme */
     color: white;
 }
 
- .half { /* limits the width so the text doesn't overlap on God  */
+ .half { /* limits the width of the p so the text doesn't overlap on God  */
     width: 45%;
  }
 
- p {
+ p { /* better text readability */
     font-size: larger;
     
  }
-/* Add a black background color to the top navigation */
+/* Add a black background color to the top navigation and other things...*/
 header {
     background-color: #333;
     overflow: hidden;
     width: 100%;
+    height: 60px;
+    
+}
+
+
+header li { /* styles and aligns nav list into buttons */
+    text-transform: uppercase;
+    list-style: none;
+    float: left;
+    width: 20%;
 }
 
 /* Style the links inside the navigation bar */
 header a {
     color: #f2f2f2;
-    padding: 40px 20px 20px 20px;
+    padding: 20px 40px 20px 40px;
     text-decoration: none;
     font-size: 34px;
 }
@@ -45,52 +55,34 @@ header a.active {
 }
 
 
-footer {
+footer { /* centers footer text and places it directly on the bottom */
     position: fixed;
-    left: 0;
     bottom: 0;
     width: 100%;
     text-align: center;
 }
 
-pre {
+pre { /* makes The Ballad of Buckethead more readable and aligns with embedded video */  
     font-size: larger;
     transform: translateX(-70px);
 }
 
-#right{  
+.right{  /* aligns to the right */
     float: right;
     transform: translatex(-30px);
 }
 
-#left{
+.left{ /* aligns to the left */
     float: left;
     transform: translatex(30px);
 }
-img {
-    transform: translateX(100px);
+img { /* moves the image to the right so it looks better */
+    width : 600px;
+    height: auto; /*to preserve the aspect ratio of the image*/   
+
 }
 
-header {
-    height: 54px;
-    overflow: hidden;
-    border-bottom: 1px solid black;
-}
+.pos { /* """centers""" the home nav button */
 
-header ul {
-    height: 54px;
-    overflow: hidden;
-}
-
-header li {
-    font-size: 1.0em;
-    text-transform: uppercase;
-    list-style: none;
-    float: left;
-    width: 20%;
-}
-
-.pos {
-
-    transform: translateX(85px);
+    transform: translateX(60px);
 }
