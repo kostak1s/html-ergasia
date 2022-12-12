@@ -76,13 +76,34 @@ pre { /* makes The Ballad of Buckethead more readable and aligns with embedded v
     float: left;
     transform: translatex(30px);
 }
+
+#right {
+    float: right; 
+
+}
+
 img { /* moves the image to the right so it looks better */
     width : 600px;
     height: auto; /*to preserve the aspect ratio of the image*/   
 
 }
 
+.alb {
+    float: right;
+    width : 10rem;
+    height: 10rem;
+    transform: translatex(-120px);
+}
+
 .pos { /* """centers""" the home nav button */
 
     transform: translateX(60px);
+}
+
+#disc {
+    line-height: 100px;
+    font-size: xx-large;
+    list-style: none;
+    float: left;
+    width: 50%;
 }
