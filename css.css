@@ -54,17 +54,16 @@ footer {
 }
 
 pre {
-    transform: translateX(-50px);
+    font-size: larger;
+    transform: translateX(-70px);
 }
 
-#right{
-    
+#right{  
     float: right;
     transform: translatex(-30px);
 }
 
 #left{
-    
     float: left;
     transform: translatex(30px);
 }
