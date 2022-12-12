@@ -1,5 +1,6 @@
 body, html { /*sets the bg img, the color scheme and removes the appearance of scroll bar */
-    overflow-y: clip; 
+    overflow-y: clip;
+    overflow-x: hidden; 
     background-image: url("https://imgs.search.brave.com/3oQg9p7dX5_89Vxp2xWSnob069eFXQFjbrAtGvKUrgs/rs:fit:1200:1080:1/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJhY2Nlc3Mu/Y29tL2Z1bGwvMjg2/NjUzNi5qcGc");
     background-repeat: no-repeat;
     background-position: center;
@@ -77,7 +78,7 @@ pre { /* makes The Ballad of Buckethead more readable and aligns with embedded v
     transform: translatex(30px);
 }
 
-#right {
+#right { /* aligns the bio img right */
     float: right; 
 
 }
@@ -88,11 +89,18 @@ img { /* moves the image to the right so it looks better */
 
 }
 
-.alb {
+#alb_cont{ /*stacks album covers in a column */
+    transform: translateY(-30px);
+    
     float: right;
+    width: min-content;
+}
+.alb { /*scales and aligns album covers */
+    transform: translatex(-120px);
     width : 10rem;
     height: 10rem;
-    transform: translatex(-120px);
+    
+    
 }
 
 .pos { /* """centers""" the home nav button */
@@ -100,10 +108,10 @@ img { /* moves the image to the right so it looks better */
     transform: translateX(60px);
 }
 
-#disc {
-    line-height: 100px;
+#disc { /* styles discography list */
+    line-height: 150px;
     font-size: xx-large;
     list-style: none;
     float: left;
-    width: 50%;
+    width: 70%;
 }
