@@ -119,3 +119,15 @@ img { /* moves the image to the right so it looks better */
     float: left;
     width: 70%;
 }
+
+#info { /* 1st column (half) of info */
+    float: left;
+    
+    width: 45%;
+}
+
+#fav {  /* 2nd column of info */
+    float: right;
+    
+    width: 45%;
+}
