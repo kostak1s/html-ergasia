@@ -108,6 +108,10 @@ img { /* moves the image to the right so it looks better */
     transform: translateX(60px);
 }
 
+#pos2 {
+    transform: translateX(-30px); 
+}
+
 #disc { /* styles discography list */
     line-height: 150px;
     font-size: xx-large;
