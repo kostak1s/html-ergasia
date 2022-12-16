@@ -138,11 +138,11 @@ img { /* moves the image to the right so it looks better */
     list-style: none;
 }
 
-#p1{ /* favourite pikes list col 1 */
+.p1{ /* favourite pikes list col 1 */
     float: left;
     width: 50%;
 }
-#p2{ /* favourite pikes list col 2 */
+.p2{ /* favourite pikes list col 2 */
     float: right;
     width: 50%;
 }
